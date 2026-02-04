@@ -1,25 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""
-Canonical Hyperbolic Petri Net Simulator – Research Version
-
-Fully self-contained simulation framework for studying
-information-geometric dynamics of discrete state systems
-with Pareto-Nash efficiency and admissibility invariants.
-
-Features:
-- Deterministic Petri Net simulation
-- Hyperbolic embedding (Poincaré Disk)
-- Admissibility / Rational Inattention check
-- SHA3-256 fingerprint of trajectory
-- Dynamic random seed for reproducibility per run
-- Real-time ASCII summary and visualization
-
-Author: Eric Ren
-License: MIT
-Date: 2026
-"""
 
 import argparse
 import hashlib
@@ -280,3 +261,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
